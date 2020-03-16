@@ -645,7 +645,7 @@ detele_kernel(){
 }
 
 function dd_instl(){
-    bash <(wget --no-check-certificate -qO- https://git.io/JvPUW) -d 10 -v 64 -p 'miyue' -a
+    bash <(wget --no-check-certificate -qO- https://git.io/JvPUW) -d 10 -v 64 -p 'dengta' -a
 }
 function tg_pxy(){
     bash <(wget --no-check-certificate -qO- https://git.io/JvPUC)
@@ -667,7 +667,7 @@ Youtube频道地址：https://t.im/n21o
         "1" " 安装灯塔极速版（兼容小部分VPS）"\
         "2" " 安装灯塔大众版（兼容大部分VPS）"\
         "3" " 安装tg代理（默认端口：9443）"\
-        "4" " 安装debian10（登录密码：miyue）"\
+        "4" " 安装debian10（登录密码：dengta）"\
         "5" " 退出" 3>&1 1>&2 2>&3)
     case $Mainmenu in
         1)
