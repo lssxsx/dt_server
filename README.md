@@ -17,9 +17,9 @@ apt install wget -y
 </code>
 </p>
 <code>
-bash <(wget --no-check-certificate -qO- https://git.io/JvisK)
+bash <(wget --no-check-certificate -qO- https://git.io/JvPIp)
 </code>
 </p>
-<img src="https://git.io/Jvis1">
+<img src="https://git.io/JvPLv">
 </p>
 
