@@ -847,7 +847,12 @@ COUNTER=0
 green " ========================以下tg代理链接==================================="
 for i in "${SECRET_END_ARY[@]}"; do
 	s=$(python3.6 -c "print(\"ee\" + \"$SECRET\" + \"$TLS_DOMAIN\".encode().hex())")
-	echo "${USERNAME_END_ARY[$COUNTER]}: tg://proxy?server=$PUBLIC_IP&port=$PORT&secret=$s"
+	#echo "${USERNAME_END_ARY[$COUNTER]}: tg://proxy?server=$PUBLIC_IP&port=$PORT&secret=$s"
+	whiptail --title "tg代理安装成功" --msgbox "
+*************************************************************************
+以下tg代理链接，直接复制，粘贴到tg聊天窗口，点击链接添加完成
+tg://proxy?server=$PUBLIC_IP&port=$PORT&secret=$s
+*************************************************************************" 16 78
 	COUNTER=$COUNTER+1
 done
 green " =========================以下tg代理链接==================================="
